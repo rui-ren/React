@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo App - Home</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="site.css"/>
+        <script src="site.js"></script>
+        <style>
+            h1, h2, h3, h4, h5,h6 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: blue;
+                background-color:chartreuse;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!--Top header starts-->
+        <header id="topHeader">
+            <div id="log">
+                <a href="https://www.beaconfiresolution.com" target="_self"> </a>
+                <img src="images/logo.jpg" alt="logo" class="site-logo" />
+                <img src="images/vs-logo.jpg" alt="logo" class="vs-logo" />
+            </div>
+            <h1>Demo App</h1>
+            
+            <nav id="topNav">
+                <ul>
+                    <li>
+                        <a href="Index.html" target="_self">Home</a>
+                    </li>
+                    <li>
+                        <a href="Login.html" target="_self">Login</a>
+                    </li>
+                    <li>
+                        <a href="Signup.html" target="_self">SignUp</a>
+                    </li>
+                </ul>
+            </nav>
+            <section id="time-block">
+                <span id="timespan"></span>
+            </section>
+        </header>
+        <!--Top header ends here-->
+
+        <!--main section begins here-->
+        <section id="main">
+            <main>
+                <h3>
+                    Sample Web app
+                </h3>
+                <div id="teck-stack">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Technology Name</th>
+                                <th>Version</th>
+                                <th>Platform</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTML</td>
+                                <td>5</td>
+                                <td>Web</td>
+                            </tr>
+                            <tr>
+                                <td>Angular</td>
+                                <td>10</td>
+                                <td>Web/Mobile</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Tech Summary</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <br>
+                    <br>
+                    <br>
+                    <form id="sampelForm" name="sampleForm">
+                        <div class="form-group">
+                            <label for="txtName" class="form-control-label">Enter Name:</label>
+                            <input type="text" id="txtName" name="txtName" placeholder="Enter Name"/>
+                        </div>
+                        <div>
+                            <span id="message">
+                                
+                            </span>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                </div>
+            </main>
+        </section>
+        <div id="clearfix">
+
+        </div>
+        <!--side bar begins-->
+        <aside id="sidebar">
+            <section>
+                <nav id="sideNav" class="nav">
+                    <ul>
+                        <li>
+                            <a href="" target="_self">News</a>
+                        </li>
+                        <li>
+                            <a href="" target="_self">Articles</a>
+                        </li>
+                        <li>
+                            <a href="" target="_self">Sitemap</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+
+        <div id="clearfix">
+
+        </div>
+
+        <!--footer begins here-->
+        <footer id="footer">
+            <span>&copy; Demo App - 2020</span> | <a href="https://www.beaconfiresolution.com" target="_blank">Beaconfire</a>
+            |<a href="mailto:helpdesk@beacon.com">Help Desk</a>
+            |<a href="tel:+18001231234">Help line: +1 800 123 1234</a>
+        </footer>
+    </body>
+</html>
