@@ -1,0 +1,4 @@
+G:\ICC\day 5 - 2020-8-28\api\eCommerceWeb.API\eCommerceWebBusiness\obj\Debug\netcoreapp3.1\eCommerceWebBusiness.csprojAssemblyReference.cache
+G:\ICC\day 5 - 2020-8-28\api\eCommerceWeb.API\eCommerceWebBusiness\obj\Debug\netcoreapp3.1\eCommerceWebBusiness.AssemblyInfoInputs.cache
+G:\ICC\day 5 - 2020-8-28\api\eCommerceWeb.API\eCommerceWebBusiness\obj\Debug\netcoreapp3.1\eCommerceWebBusiness.AssemblyInfo.cs
+G:\ICC\day 5 - 2020-8-28\api\eCommerceWeb.API\eCommerceWebBusiness\obj\Debug\netcoreapp3.1\eCommerceWebBusiness.csproj.CoreCompileInputs.cache

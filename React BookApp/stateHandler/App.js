@@ -16,9 +16,9 @@ class App extends Component {
             this.setState(currState => ({
                 correctAnswer: currState.correctAnswer + 1,
             }));
-            this.setSet(currState => ({
-                numQuestion: currState.numQuestion + 1,
-            }))
+        this.setSet(currState => ({
+            numQuestion: currState.numQuestion + 1,
+        }))
         }
     }
 

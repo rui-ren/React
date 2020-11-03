@@ -55,7 +55,7 @@ ROOT_URLCONF = 'tryjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:\Users\ruire\Documents\GitHub\react\Django\tryjango\templates\home.html"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

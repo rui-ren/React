@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "eCommerceWeb.Contracts/1.0.0": {
+        "dependencies": {
+          "eCommerceWeb.Entity": "1.0.0"
+        },
+        "runtime": {
+          "eCommerceWeb.Contracts.dll": {}
+        }
+      },
+      "eCommerceWeb.Entity/1.0.0": {
+        "runtime": {
+          "eCommerceWeb.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eCommerceWeb.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eCommerceWeb.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

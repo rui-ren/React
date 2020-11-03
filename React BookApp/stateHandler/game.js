@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Game extends Component {
 
-    constructor(props) {
+    constructor(props) {    
         super(props);
         const valuesArray = this.makeNewQuestion();
         this.state = {
@@ -36,9 +36,9 @@ class Game extends Component {
             (corrAnswer === proposedAnswer && givenAnswer === 'true') ||
             (corrAnswer !== proposedAnswer && givenAnswer === 'false')
         );
-    }
+    }   
 
-    handleAnswer = event => {
+    handleAnswer = event => {   
         const newValuesArray = this.makeNewQuestion();
         this.updateState(newValuesArray);
         const answerWasCorrect = this.evaluateAnswer(event.target.name);
@@ -46,6 +46,7 @@ class Game extends Component {
         this.props.handleAnswer(answerWasCorrect)
     }
     }
+    
     render() {
         const {value1, value2, value3, proposedAnswer} = this.state;
         return (
