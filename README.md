@@ -5,6 +5,6 @@
 	- React Native
 	- Redux
 
-## C# backend development MVC
+## C# backend MVC
 	- SQL
 	- Swagger
