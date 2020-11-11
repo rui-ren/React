@@ -1,5 +1,6 @@
 ## React
     - React Framework
+    - Single Page Application
 
 ## React Native App
 	- React Native
