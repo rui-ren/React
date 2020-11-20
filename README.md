@@ -9,3 +9,9 @@
 ## C# backend MVC
 	- SQL
 	- Swagger
+	
+## MERN stack
+	- MongoDB
+	- Express
+	- React
+	- Node.js
