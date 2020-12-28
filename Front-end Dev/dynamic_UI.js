@@ -21,6 +21,20 @@ function performAction(e) {
 	)
 }
 
+const getAnimal = async (baseURL, annimal, key) => {
+	
+	const res = await fetch(baseURL+animal+key)
+	try {
+		const data = await res.json();
+		console.log(data);
+		return data;
+	} catch (error) {
+		console.log("error", error);
+	}
+}
+
+
+
 // update UI callback function 
 const updateUI = async() => {
 	
