@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e74nGJ2WhOSaSiDUsW7fFkiS1D0sUb6+9sh36SZbaid84SM7G5s/XJ9R8dE+O3HvwUjWom6gMrkt0lZprraVkg==",
+  "success": true,
+  "projectFilePath": "G:\\ICC\\day 5 - 2020-8-28\\api\\eCommerceWeb.API\\eCommerceWeb.Entity\\eCommerceWeb.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ruire\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

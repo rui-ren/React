@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>eCommerceWeb.API</name>
+    </assembly>
+    <members>
+        <member name="M:eCommerceWeb.API.Controllers.CategoryController.GetCategories">
+            <summary>
+            Endpoint for testing API
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:eCommerceWeb.API.Controllers.CategoryController.GetCategoryById(System.Int32)">
+            <summary>
+            Query the endpoint here
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:eCommerceWeb.API.Controllers.CategoryController.SaveCategory(eCommerceWeb.Entity.Category)">
+            <summary>
+            Save a new category
+            </summary>
+            <param name="category">Given a category</param>
+            <returns>Returns Id of category created</returns>
+        </member>
+        <member name="M:eCommerceWeb.API.Controllers.ProductController.GetProducts">
+            <summary>
+             Endpoint for test API Product
+             </summary>
+        </member>
+        <member name="M:eCommerceWeb.API.Controllers.ProductController.GetProductById(System.Int32)">
+            <summary>
+            Query the endpoint for products
+             </summary>
+        </member>
+    </members>
+</doc>

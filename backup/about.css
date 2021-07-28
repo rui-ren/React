@@ -1,0 +1,154 @@
+@import 'buttons.css';
+
+
+body {
+    background-color:#0a192f;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.site-logo {
+    position: absolute;
+    size : 5px;
+    top: .05;
+    left: .05;
+    margin : 0px;
+}
+
+#topHeader {
+    height: 60px;
+    width: 100%;
+    background-color: #0a192f;
+    border-radius: 10px;
+    /* position:fixed; */
+}
+
+#topNav {
+    float: right;
+}
+
+#topNav ol {
+    list-style: decimal;
+    color: #64ffda;
+    counter-reset: LIST-ITEMS 00;
+}
+
+#topNav ol li {
+    display: inline;
+    padding-right: 0.5em;
+}
+
+#topNav ol li:before
+{
+    content: counter( LIST-ITEMS ) ".";
+    counter-increment: LIST-ITEMS;
+    padding-right: 0.em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform : capitalize;
+}
+
+#topNav ol li a {
+    text-decoration : none;
+    text-transform : capitalize;
+    font-size: 1.5em;
+    color : white;
+    padding: 1em;
+}
+
+#topNav ol li a:hover {
+    background-color: #0a192f;
+    /* border: 1px solid #0a192f;
+    border-radius: 10px; */
+    color: #64ffda;
+}
+
+#time-block {
+    margin-right: 10px;
+    padding : 10px;
+    clear: both;
+    float: right;
+    color: green;
+}
+
+.main {
+    height: 900px;
+    background-color: #0a192f;
+    position: relative;
+}
+
+.main_left {
+    width: 60px;
+    height: 300px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 200px;
+    left:0;
+    top:0;
+    background-color: #0a192f;
+}
+
+.main_center {
+    height: 800px;
+    margin: 0 60px 0 60px;
+    background-color: #0a192f;
+}
+
+#main_center_middle {
+    background-color:#0a192f;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    height: 700px;
+    width: 700px;
+    position: relative;
+    float: left;
+    top: 100px;
+}
+
+.main_right {
+    width: 60px;
+    height: 900px;
+    position: absolute;
+    right:0;
+    bottom:0;
+    background-color: #0a192f;
+}
+
+.paragram  {
+    padding: 10px;
+    line-height: 1.5;
+    text-align: justify;
+    color: gainsboro;
+    text-indent: 2em;
+}
+
+@media screen and (min-width: 601px) {
+    .paragram {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .paragram {
+        font-size: 12px;
+    }
+}
+
+#Technical_skills {
+    margin-left : 80px;
+    color: #64ffda;
+}
+
+.ul {
+    margin-left : 80px;
+    color: white;
+    font-size: 15px;
+}
+
+#skillset {
+    font-size: 16px;
+    text-indent: 1em;
+    color: rosybrown;
+    font-style: normal;
+}
+
